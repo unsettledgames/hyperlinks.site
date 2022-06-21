@@ -1,27 +1,26 @@
-Copyright: Lucinotion 2022
+Site: hyperlinks.site
 
+License: GPL-3.0 /LICENSE
+
+Copyright: Lucinotion 2022
 
 /* TEAM */
 
 Lucinotion AKA Luciano A. Candal : Designer, coder and owner.
 
-
-Site: hyperlinks.site
-
-
 Twitter: @Lucinotion
 
+/* CONTRIBUTORS */
+
+Lucinotion Lucinotion
+unsettledgames Nicola
 
 /* SITE */
 
-
 Last update: 2022-06-18T20:51Z
-
 
 Standards: HTML5, CSS3, JavaScript
 
-
 Components: none
 
-
-Software: Inkscape, GIMP, vscode
+Software: Inkscape, GIMP, KRITA, vscode
