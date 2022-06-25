@@ -60,7 +60,7 @@
     Read the <a href="#guidelines">GUIDELINES</a> before doing anything.
   </li>
   <li>
-    Add the links at the end of <a href="./~submissions/links.txt">/~submissions/links.txt</a>.
+    Add the links at the end of <a href="./_submissions/links.txt">/_submissions/links.txt</a>.
   </li>
   <li>
     (Optional) Add your name in the contributors section of <a href="./humans.txt">/humans.txt</a>.
