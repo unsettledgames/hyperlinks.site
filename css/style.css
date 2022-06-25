@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 :root{
     --margin: 5px;
     --double-margin: 10px;
@@ -8,11 +10,12 @@
     --details-margin: 20px;
     --anchor-margin: 26px;
 
-    --text-color: rgb(35, 34, 104);
+    --text-color: rgb(1, 53, 150);
 }
 
 * {
     font-family: 'Patrick Hand', cursive;
+    /* font-family: 'Dosis', sans-serif; */
     box-sizing: border-box;
     font-size: x-large;
 }
@@ -38,7 +41,6 @@ main > picture{
 
 header > h1{
     font-size: xxx-large;
-    font-family: 'Permanent Marker', cursive;
     text-align: center;
     margin: 0;
 }
@@ -59,7 +61,6 @@ main summary{
     margin: 0;
     padding: var(--margin) 0;
     
-    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
     font-weight: bold;
     cursor: pointer;
@@ -76,7 +77,6 @@ main details span{
     width: 50%;
     margin: var(--double-margin) 0 var(--double-margin) var(--anchor-margin);
 
-    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
     font-weight: bold;
     border-bottom-style: solid;
