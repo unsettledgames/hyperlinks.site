@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
-
 :root{
-    --margin: 5px;
-    --double-margin: 10px;
+    --margin: 8px;
+    --double-margin: 16px;
     --main-top-margin: 15px;
     --main-bottom-margin: 0px;
     --details-margin: 20px;
     --anchor-margin: 26px;
 
-    --text-color: rgb(35, 34, 104);
+    --text-color: rgb(1, 53, 150);
 }
 
 * {
-    font-family: 'Patrick Hand', cursive;
+    font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
-    font-size: x-large;
 }
 
 body{
@@ -38,7 +35,6 @@ main > picture{
 
 header > h1{
     font-size: xxx-large;
-    font-family: 'Permanent Marker', cursive;
     text-align: center;
     margin: 0;
 }
@@ -59,7 +55,6 @@ main summary{
     margin: 0;
     padding: var(--margin) 0;
     
-    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
     font-weight: bold;
     cursor: pointer;
@@ -76,7 +71,6 @@ main details span{
     width: 50%;
     margin: var(--double-margin) 0 var(--double-margin) var(--anchor-margin);
 
-    font-family: 'Permanent Marker', cursive;
     font-size: x-large;
     font-weight: bold;
     border-bottom-style: solid;
@@ -97,7 +91,7 @@ main details a{
     display: block;
     margin: var(--margin) 0 var(--margin) var(--anchor-margin);
 
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     text-decoration: none;
     color: var(--text-color);
@@ -133,7 +127,7 @@ main details a{
         left: -37px;
         top: 0;
         height: 100%;
-        opacity: 50%;
+        opacity: 20%;
         border: 8px solid;
         border-image: url("/res/img/bg/border.png") 8 / 8px / 0 round;
     }
